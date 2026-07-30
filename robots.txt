@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://littleskysbx.github.io/aitoolradar/sitemap.xml
+Sitemap: https://myaitoolradar.com/sitemap.xml
