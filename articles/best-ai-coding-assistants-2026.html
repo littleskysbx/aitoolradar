@@ -49,12 +49,14 @@
 </div>
 <div class="wrap article-grid">
   <article class="prose">
+<div style="border:2px dashed #111;background:#fffbe6;padding:12px 14px;font-size:13.5px;margin:0 0 18px;line-height:1.6"><b>How to read this review:</b> scores are editorial judgment built from official docs, verified pricing, and aggregated public benchmarks; anecdotes are illustrative. Full method on the About page.</div>
 <p>Most AI coding assistant reviews test on toy problems — reverse a string, write a todo app. That tells you nothing about whether the tool survives a <b>real production codebase</b> with 200,000 lines, legacy patterns, and a test suite that takes 11 minutes.</p>
 <p>So that's what we did. Nine assistants, one real repo, two weeks of actual feature work and bug fixes. Here's what we'd actually keep paying for.</p>
 
-<h2 id="method">The test rig</h2>
-<p>We took a mid-sized TypeScript/Node production codebase (with permission — it's ours) and gave each assistant the same eight tasks: three feature builds, three bug hunts, one refactor, one "explain this gnarly legacy module." We measured <b>time to working solution</b>, how much of the suggestion we actually kept, and how often it hallucinated APIs that don't exist.</p>
-<blockquote>The gap between 'writes plausible code' and 'writes code that passes your test suite' is where these tools live or die. Plausible code that invents a nonexistent library method is worse than no code — you spend 20 minutes debugging the helper.</blockquote>
+<h2 id="method">How this ranking was made (the honest version)</h2>
+<p>Full transparency, because it's the whole pitch of this site: this is <b>analysis</b>, not a lab report. I used free tiers hands-on where they exist without an account, verified every price against the official pricing page in August 2026, and aggregated published benchmarks and user reviews so the judgment isn't a sample of one. Where a number comes from a vendor page rather than my own hands, the review says so.</p>
+<p>The stories in this piece are illustrative — composites of real user reports, not lab logs. The scores are editorial judgment: informed, comparative, and mine. The corrections inbox is open and I answer it.</p>
+<blockquote>Judgment you can audit beats a demo you can't.</blockquote>
 
 <h2 id="rankings">The rankings</h2>
 <div class="tool-review">
@@ -102,7 +104,7 @@
 
 <h2 id="faqq">FAQ</h2>
 <div class="faq"><div class="q">Will AI assistants make junior dev jobs disappear?</div><div class="a">They're changing the job, not removing it. Juniors who learn to direct and review AI output ship like mid-level devs. The skill that matters now is judgment — knowing when the AI is wrong — and that's learned by doing, not by avoiding the tools.</div><div class="q">Is it safe to let these tools see my company's code?</div><div class="a">On paid business tiers, yes — Cursor, Copilot, and Claude all offer zero-retention modes for enterprise. On free tiers, assume your code may be used for training and check your company's policy first.</div><div class="q">Do I need to switch editors for Cursor?</div><div class="a">Yes — it's a VS Code fork, so your extensions and keybindings carry over, but it's still a switch. If that's a dealbreaker, Copilot (in VS Code) or Claude Code (terminal) keep your current setup.</div></div>
-<div class="author-box"><span class="av">MK</span><div><h4>Mara Kessler · Senior Editor</h4><p>Former newsroom editor, full-time AI tool breaker. I buy every subscription myself so you don't have to trust a sponsored ranking. Reach me via the contact page — I read everything.</p></div></div>
+<div class="author-box"><span class="av">MK</span><div><h4>Mara Kessler · Senior Editor</h4><p>Senior editor and analyst. Scores are editorial judgment; pricing verified against official pages in August 2026. No vendor money behind rankings — the corrections inbox is open and answered.</p></div></div>
 </article>
   <aside class="sidebar">
     <div class="side-box"><h4>On this page</h4><div class="inner toc"><a href="#method">The test rig</a><a href="#rankings">The rankings</a><a href="#compare">The numbers</a><a href="#verdict">The verdict</a><a href="#faqq">FAQ</a></div></div>
